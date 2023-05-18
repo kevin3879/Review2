@@ -1,0 +1,68 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation Menu */
+  nav {
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  /* Page Styles */
+  section {
+    padding: 50px;
+  }
+  
+  #home {
+    background-color: #f2f2f2;
+  }
+  
+  #about {
+    background-color: #e6e6e6;
+  }
+  
+  #projects {
+    background-color: #f2f2f2;
+  }
+  
+  #contact {
+    background-color: #e6e6e6;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: disc;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
